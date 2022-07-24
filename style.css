@@ -1,40 +1,49 @@
 
-.container-sm{
-background-color: rgb(119, 203, 232);
-height: auto;
+
+.container-sm .nav {
+
+    background-color: rgb(47, 115, 155);
 }
-.container-sm .nav{
-    
-background-color: rgb(122, 129, 133);
-}
-.nav span{
+
+.nav span {
     color: #fff
 }
-.nav .col-4{
+
+.nav .col-4 {
     height: 70px;
     color: rgb(15, 15, 16);
     font-size: xx-large;
-    
+
 }
-.nav img{
+
+.nav img {
     width: 40px;
     height: 40px;
 }
-.nav .lista{
+
+.nav .lista {
     display: flex;
-    list-style-type: none; ;
+    list-style-type: none;
+    ;
 }
+
 .nav li {
     margin: auto;
 }
-.nav li:hover{
+
+.nav li:hover {
     color: beige;
-    cursor:pointer;
+    cursor: pointer;
 }
-.nav-responcive .row{
+
+.nav-responcive .row {
     display: none;
 }
 
+.lista-nav {
+    position: relative;
+    top: 15px
+}
 
 
 
@@ -43,136 +52,206 @@ background-color: rgb(122, 129, 133);
 
 
 
- @media screen and (max-width: 770px){
+
+@media screen and (max-width: 770px) {
     .nav .row {
-display: none  
+        display: none
     }
-    .nav-responcive{
-       background-color:rgb(122, 129, 133); ;
+
+    .nav-responcive {
+        background-color: rgb(122, 129, 133);
+        ;
     }
-    .nav-responcive .row{
+
+    .nav-responcive .row {
         display: flex;
     }
- 
- .nav-responcive .lista{
-    list-style: none;
-    
- }
- 
- .nav-responcive .row .row .col-4{
-    font-size: xx-large;
-    color: rgb(15, 15, 16);
-    position: relative;
-    left: 30px;
- }
- .nav-responcive span{
-    color: rgb(255, 255, 255);
-    font-size: xx-large;
- }
- .nav-responcive li:hover{
-    color: beige;
-    cursor:pointer;
-}
- .col .row-cards{
-    margin :20%;
- }
- .col .row-cards .col-sm{
-    margin:8px 0;
- }
- }
 
+    .nav-responcive .lista {
+        list-style: none;
 
+    }
 
+    .nav-responcive .row .row .col-4 {
+        font-size: xx-large;
+        color: rgb(15, 15, 16);
+        position: relative;
+        left: 30px;
+    }
 
+    .nav-responcive span {
+        color: rgb(255, 255, 255);
+        font-size: xx-large;
+    }
 
+    .nav-responcive li:hover {
+        color: beige;
+        cursor: pointer;
+    }
 
+    .col .row-cards {
+        margin: 20%;
+    }
 
-
-
-.iam{
-    height: 100vh;
-    align-content:center ;
-    background-color: rgb(204, 214, 217);
-}
-.iam .col-lg-6{
-    position: relative;
-    top: 30px;
+    .col .row-cards .col-sm {
+        margin: 8px 0;
+    }
 }
 
-.iam .col-lg-6 img{
-    width: 100%;
-    
+
+
+
+.iam {
+    background-color: rgb(162, 200, 212);
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
 }
-.aboutme{
+
+
+
+
+.iam .iam-texto {
     height: 80vh;
-    background-color:rgb(204, 214, 217);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+
 }
-.aboutme .col .yo{
+
+.iam-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.iam img {
     width: 100%;
-     border-radius: 35%;
-     max-width: 500px;
-     max-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.mis-habilidades{
+
+.aboutme {
+    height: 40vh;
+    background-color: rgb(246, 243, 243);
+
+
+}
+
+.aboutme .aboutme-texto {
+    text-align: center;
+    width: auto;
     height: auto;
- 
-    background-color: rgb(204, 214, 217);
+
 }
-.mis-habilidades h2{
+
+.aboutme .col-5 .yo {
+
+    border-radius: 35%;
+    max-width: 300px;
+    max-height: 300px;
+    
+}
+.download-cv{
+    background-color:rgb(162, 200, 212);
+    border: 1px solid rgb(124, 177, 193);;;
+} 
+.download-cv:hover{
+    color: #fff;
+    box-shadow: 0px 0px 60px rgb(43, 158, 156);
+    border: 1px solid rgb(131, 125, 198);
+}
+
+.mis-habilidades {
+    height: auto;
+    background-color: rgb(162, 200, 212);
+}
+.mis-habilidades-col-row{
+   text-align: start;  
+   padding: 30px 150px; 
+}
+
+
+
+.mis-habilidades h2 {
+   margin:30px 31px ;
+   text-decoration:underline;
+   text-decoration-color:rgb(246, 243, 243);
+   text-decoration-style:double;
+   
+}
+.mis-habilidades-col-row ul {
+    list-style-type: none;
+    text-decoration:underline;
+    text-decoration-color: antiquewhite ;
+
+}
+
+
+.mis-proyectos {
+
+    background-color: rgb(162, 200, 212);
+}
+
+.mis-proyectos .card img {
+    height: 16rem;
+}
+
+.mis-proyectos .parrafo {
     text-align: center;
     padding: 30px;
 }
-.mis-habilidades .iconos-de-herramientas img {
-width: 100%;
 
-}
-.mis-proyectos{
-   
-    background-color: rgb(204, 214, 217);
-}
 
-.mis-proyectos .card img{
-    height: 16rem;
-}
-.mis-proyectos .parrafo{
-    text-align: center;
-    padding:30px;
+
+
+.contacto {
+    background-color: rgb(162, 200, 212);
 }
 
-
-
-
-.contacto{
-    background-color: rgb(204, 214, 217);
-}
-.formulario{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     height: 35vh;
-    
+
 }
-.form input{
+
+.form input {
     width: 300px;
 }
-.form textarea{
+
+.form textarea {
     width: 500px;
     height: 150px;
 }
 
-.footer{
-    background-color: rgb(122, 129, 133);
+.footer {
+    background-color: rgb(47, 115, 155);
 }
 
-.footer-contact{
+.footer-contact {
     width: 100%;
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
+.form input,
+textarea {
+    background-color: rgb(246, 243, 243)
+}
 
+.form .btn {
+    background-color: rgb(49, 108, 247);
 }
